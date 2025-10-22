@@ -1,0 +1,43 @@
+@import "tailwindcss";
+/* Define colors as CSS variables */
+:root {
+  --deepBlue: #02042a;
+  --lightBlue: #2b84ea;
+  --lightBlue300: #4b94ed;
+  --lightBlue500: #0b72e7;
+  --greenLight: #61cea6;
+  --grayText: #818597;
+  --lightGray: #e2e2e2;
+  --grayBlue: #344a6c;
+  --deepBlueHead: #162f56;
+  --gray2: #525a76;
+}
+
+/* Set font globally */
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Text color utilities */
+.text-deepBlue { color: var(--deepBlue); }
+.text-lightBlue { color: var(--lightBlue); }
+.text-lightBlue300 { color: var(--lightBlue300); }
+.text-lightBlue500 { color: var(--lightBlue500); }
+.text-greenLight { color: var(--greenLight); }
+.text-grayText { color: var(--grayText); }
+.text-lightGray { color: var(--lightGray); }
+.text-grayBlue { color: var(--grayBlue); }
+.text-deepBlueHead { color: var(--deepBlueHead); }
+.text-gray2 { color: var(--gray2); }
+
+/* Background color utilities */
+.bg-deepBlue { background-color: var(--deepBlue); }
+.bg-lightBlue { background-color: var(--lightBlue); }
+.bg-lightBlue300 { background-color: var(--lightBlue300); }
+.bg-lightBlue500 { background-color: var(--lightBlue500); }
+.bg-greenLight { background-color: var(--greenLight); }
+.bg-grayText { background-color: var(--grayText); }
+.bg-lightGray { background-color: var(--lightGray); }
+.bg-grayBlue { background-color: var(--grayBlue); }
+.bg-deepBlueHead { background-color: var(--deepBlueHead); }
+.bg-gray2 { background-color: var(--gray2); }
